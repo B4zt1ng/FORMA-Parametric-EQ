@@ -218,7 +218,7 @@ h1 {
 .hero-screenshot-wrap {
   position: relative;
   width: 100%;
-  max-width: 780px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
@@ -233,10 +233,11 @@ h1 {
 .hero-screenshot {
   position: relative;
   z-index: 1;
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  width: auto;
   height: auto;
-  max-height: 380px;
-  object-fit: contain;
+  margin: 0 auto;
   border-radius: 12px;
   border: 1px solid rgba(29,158,117,.25);
   box-shadow:
